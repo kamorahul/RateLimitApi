@@ -1,0 +1,22 @@
+---------------------
+		HOTELS
+---------------------
+==============================================================================
+hotelId, cityId, hotelName, hotelAddress, rooms, price, stars, hotelType
+==============================================================================
+1, 7, Aloft Dulles, "Airport North", 20, 550, 3, Superior
+2, 7, Embassy Suites, "Dulles - North/Loudoun", 16, 850, 4, Suite
+3, 7, Hyatt Place Sterling, "Dulles Airport North", 37, 710, 4, Deluxe
+4, 6, Swissôtel Amsterdam, "XYZ", 14, 395, 4, Deluxe
+5, 6, Renaissance Amsterdam Hotel, "ERYUOP", 19, 310, 3, Superior
+6, 6, Radisson Blu Hotel, "SZXASDQ", 25, 450, 5, Deluxe,
+7, 2, Le Meridien, "8 Windsor Place, Janpath, New Delhi", 19, 750, 5, Deluxe   
+8, 1, Radisson Blu, "L2 Beside Centrestage Mall, Sector-18", 40, 710, 5, Deluxe
+9, 1, Savoy Suites, "Noida Sector-16", 14, 380, 3, Suite
+10, 4, Hotel Formule1 Greater Noida, "Pari Chauk, Greater Noida", 30, 425, 3, Superior
+11, 3, Mosiac Hotel, "Nehru Place, Delhi", 22, 460, 4, Deluxe
+12, 5, Amara Bangkok, "180/1 Surawong Road, Sipraya, Bangrak", 23, 400, 4, Deluxe
+13, 5, Novotel Bangkok Fenix Silom, "320 Silom Road, Bang Rak, Bangkok", 50, 340, 3, Superior
+14, 5, Red Planet, "178 Surawong Road, Si Phraya Sub-District, Bang Rak, Bangkok", 31, 299, 3, Superior
+15, 5, Klub Hotel, "22/1 Petchburi Road, Soi 13, Phayathai Rajthevee, Bangkok", 30, 325, 4, Superior
+16, 5, Studio Nana, "155/14-16 Soi Sukhumvit 11/1, Sukhumvit Rd. Khlong Tan Nuea, Bangkok", 26, 240, 2, Moderate

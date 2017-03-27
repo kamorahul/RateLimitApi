@@ -21,13 +21,13 @@ object HotelSearch {
                           .cursor[BSONDocument].collect[List]())
                     .map(_.map(document =>
                       Hotel(
-                        hotelId = document.getAs[Int]("hotelId").get,
-                        hotelName = document.getAs[String]("hotelName").get,
-                        hotelAddress = document.getAs[String]("hotelAddress").get,
-                        rooms = document.getAs[Int]("rooms").get,
-                        price = document.getAs[Int]("price").get,
-                        stars = document.getAs[Int]("stars").get,
-                        hotelType = document.getAs[String]("hotelType").get
+                        hotelId = document.getAs[Int]("hotelId").getOrElse(0),
+                        hotelName = document.getAs[String]("hotelName").getOrElse(""),
+                        hotelAddress = document.getAs[String]("hotelAddress").getOrElse(""),
+                        rooms = document.getAs[Int]("rooms").getOrElse(0),
+                        price = document.getAs[Int]("price").getOrElse(0),
+                        stars = document.getAs[Int]("stars").getOrElse(0),
+                        hotelType = document.getAs[String]("hotelType").getOrElse("")
                       )))
 
   }
